@@ -1,4 +1,4 @@
-import User from "../model/User";
+import User from "../model/User.ts";
 
 export default class UserCollection {
   static readonly users: User[] = [];

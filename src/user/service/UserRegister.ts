@@ -1,6 +1,6 @@
-import CasoDeUso from "../../shared/CasoDeUso";
-import UserCollection from "../data/UserCollection";
-import User from "../model/User";
+import CasoDeUso from "../../shared/CasoDeUso.ts";
+import UserCollection from "../data/UserCollection.ts";
+import User from "../model/User.ts";
 
 export default class UserRegister implements CasoDeUso<Required<User>, void> {
   async execute(user: Required<User>): Promise<void> {
